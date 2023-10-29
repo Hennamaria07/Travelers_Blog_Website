@@ -23,7 +23,7 @@ body {
 .c-item-one {
     min-height: calc(100vh - 4rem);
     width: 100%;
-    background-image: url("./images/home-page-img-1.jpeg");
+    background-image: url("./images/carouselImgOne.jpeg");
     background-attachment: fixed;
     background-position: 0px 20px;
     background-size: cover;
@@ -32,7 +32,7 @@ body {
 .c-item-two {
     min-height: calc(100vh - 4rem);
     width: 100%;
-    background-image: url("./images/home-page-img-2.jpeg");
+    background-image: url("./images/carouselImgTwo.jpeg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
