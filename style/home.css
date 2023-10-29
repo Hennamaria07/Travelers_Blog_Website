@@ -15,10 +15,31 @@ body{
 .header {
     height: 4rem;
 }
-.carousel-inner {
-    width: 100vw;
-    max-height: calc(100vh - 4rem);
+.c-item-one {
+    min-height: calc(100vh - 4rem);
+    width: 100%;
+    background-image: url("../images/home-page-img-1.jpeg");
+    background-attachment: fixed;
+    background-position: 0px 20px;
+    background-size: cover;
 }
+.c-item-two {
+    min-height: calc(100vh - 4rem);
+    width: 100%;
+    background-image: url("../images/home-page-img-2.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.sub-text {
+    text-align: justify;
+}
+.text-main {
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
 @media screen and (min-width: 992px) {
     .header-el {
         width: 20vw;
@@ -40,6 +61,13 @@ body{
     }
     .ul-second-el li {
         padding-left: 1.4rem;
+    }
+    .carousel-caption {
+        position: relative;
+        top: 200px;
+    }
+    .text-main {
+        font-size: 4rem;
     }
 }
 
