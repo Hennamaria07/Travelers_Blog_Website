@@ -33,13 +33,22 @@ body{
 }
 .sub-text {
     text-align: justify;
+    /* padding-right: 4rem; */
 }
 .text-main {
     font-weight: 400;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-
+.bg-img-one {
+    background-image: url("../images/home-about-img-1.webp");
+}
+.bg-img-two {
+    background-image: url("../images/home-about-img-2.webp");
+}
+.bg-img-three {
+    background-image: url("../images/home-about-img-3.webp");
+}
 @media screen and (min-width: 992px) {
     .header-el {
         width: 20vw;
@@ -69,5 +78,20 @@ body{
     .text-main {
         font-size: 4rem;
     }
+    .text-container {
+        padding: 4rem 0rem;
+    }
+    .text-lg-container {
+        padding-right: 4rem;
+    }
 }
-
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .text-md-container {
+        padding-right: 4rem;
+    }
+}
+@media screen and (max-width: 767px) {
+    .text-container{
+        padding: 0rem 4rem;
+    }
+}
